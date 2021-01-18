@@ -43,14 +43,25 @@ h1 {
   width: 22%;
   margin: 0 1%;
   background-color: #fff;
+  background-image: url('../img/pattern.png');
+  background-size: contain;
   border-radius: 15px;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 .card img {
   width: 100%;
+  visibility: hidden;
 }
 .card h2 {
   font-size: 32px;
   color: orange;
+  visibility: hidden;
+}
+
+.card:hover {
+  background-image: none;
+}
+.card:hover img, .card:hover h2 {
+  visibility: visible;
 }
 /* /Cards */
