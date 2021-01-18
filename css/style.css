@@ -58,10 +58,13 @@ h1 {
   visibility: hidden;
 }
 
-.card:hover {
+.card:hover, .card.active {
   background-image: none;
 }
-.card:hover img, .card:hover h2 {
+.card:hover img,
+.card:hover h2,
+.card.active img,
+.card.active h2{
   visibility: visible;
 }
 /* /Cards */
