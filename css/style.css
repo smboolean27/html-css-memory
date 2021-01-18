@@ -10,6 +10,12 @@ body {
   font-family: 'Nerko One', cursive;
 }
 
+/* Mix */
+h1, h2 {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+/* /Mix */
+
 /* Header */
 header {
   padding: 20px 0;
@@ -19,7 +25,32 @@ h1 {
   font-size: 90px;
   text-transform: uppercase;
   text-align: center;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
   letter-spacing: 3px;
 }
 /* /Header */
+
+/* Cards */
+.cards {
+  max-width: 1024px;
+  margin: auto;
+}
+.row {
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  padding: 20px;
+  width: 22%;
+  margin: 0 1%;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.card img {
+  width: 100%;
+}
+.card h2 {
+  font-size: 32px;
+  color: orange;
+}
+/* /Cards */
